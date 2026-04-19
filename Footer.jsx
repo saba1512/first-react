@@ -1,7 +1,9 @@
 import React from 'react';
 
+
 export default function Footer() {
     const currentYear = new Date().getFullYear();
+    
 
     return (
         <footer className="footer">
@@ -11,12 +13,13 @@ export default function Footer() {
                     <div className="footer-column about">
                         <img className="footer-logo" src="https://itstep.ge/static/images/logo.png" alt="logo" />
                         <p className="footer-desc">
-                            We offer world-class IT education. Join our community and start shaping the future of technology today.
+                            Passionate Front-end Developer focused on creating interactive and user-centric web experiences. Always striving to write clean, efficient, and scalable code.
                         </p>
                         <div className="social-icons">
-                            <a href="#" className="social-link">FB</a>
-                            <a href="#" className="social-link">IG</a>
-                            <a href="#" className="social-link">LN</a>
+                            <a target='blank' href="https://www.facebook.com/saba.xorguashvili.5" className="social-link"><ion-icon name="logo-facebook"></ion-icon></a>
+                            <a target='blank' href="https://www.instagram.com/khorguashvilisaba/" className="social-link"><ion-icon name="logo-instagram"></ion-icon></a>
+                            <a target='blank' href="#" className="social-link"><ion-icon name="logo-whatsapp"></ion-icon></a>
+                            <a target='blank' href="https://www.tiktok.com/@saba.khorguashvili" className="social-link"><ion-icon name="logo-tiktok"></ion-icon></a>
                         </div>
                     </div>
 
@@ -33,9 +36,9 @@ export default function Footer() {
                     <div className="footer-column">
                         <h3>Contact Info</h3>
                         <ul className="contact-info">
-                            <li>📍 Tbilisi, Georgia</li>
-                            <li>📞 +995 322 000 000</li>
-                            <li>✉️ info@itstep.ge</li>
+                            <li>📍 khashuri, Georgia</li>
+                            <li>📞 +995 598 306 007</li>
+                            <li>✉️ khorguashvilisaba5@gmail.com</li>
                         </ul>
                     </div>
 
@@ -44,7 +47,7 @@ export default function Footer() {
                 <div className="footer-divider"></div>
 
                 <div className="footer-bottom">
-                    <p>&copy; {currentYear} IT STEP Academy. All rights reserved.</p>
+                    <p>&copy; {currentYear} Saba khorguashvili. All rights reserved.</p>
                     <div className="footer-legal">
                         <a href="#">Privacy Policy</a>
                         <a href="#">Terms of Service</a>
